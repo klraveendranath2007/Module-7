@@ -16,8 +16,18 @@ To write a Python program to evaluate a **Taylor Series** using **recursion**, w
 
 ## 💻 PROGRAM:
 
-ADD CODE HERE
+      def fun(x,n):
+          if(n==0):
+              return 1 
+          else:
+              return (((x**n)/n)+fun(x,n-1))
+      x=int(input())
+      n=int(input())
+      print(fun(x,n))
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/1a4a77b1-7d8f-4f05-b853-b12facda9d26)
+
 
 ## RESULT
+Thus, the program has been execueted successfully.
