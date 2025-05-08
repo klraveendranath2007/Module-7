@@ -20,9 +20,24 @@ To write a Python program to check whether a given string is a **palindrome** us
 ---
 
 ## 💻 PROGRAM:
-ADD CODE HERE
+      def is_palindrome(word):
+          if len(word) <= 1:
+              return True
+          else:
+              return word
+   
+      str=input()
+      if str==str[::-1]:
+          print("String is a palindrome")
+      else:
+          print("String is not a palindrome")
+
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d15f0d07-4b26-4f7a-9d4f-18698371eb38)
+
+
 
 ## RESULT
+Thus, the program has been execueted successfully.
 
